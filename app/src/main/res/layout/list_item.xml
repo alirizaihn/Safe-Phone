@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6778B5"
+        android:layout_marginTop="16dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginVertical="10dp"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:text="Şifre Değiştir"
+        android:textStyle="bold"
+        android:id="@+id/changePass">
+    </TextView>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="140dp"
+        android:text=">"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center">
+
+    </TextView>
+
+</LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

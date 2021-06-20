@@ -1,0 +1,2 @@
+rootProject.name = "Safe Phone2"
+include ':app'

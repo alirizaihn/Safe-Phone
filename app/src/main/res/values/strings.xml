@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Safe Phone</string>
+    <string name="title_activity_main">Safe Phone</string>
+    <string name="title_home">Ana Sayfa</string>
+    <string name="title_dashboard">Profiller</string>
+    <string name="title_notifications">Ayarlar</string>
+</resources>
